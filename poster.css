@@ -1,0 +1,270 @@
+.m {
+    margin: 0;
+}
+
+.z {
+    margin: 0;
+    font-size: 1vw;
+    color: red;
+}
+
+.b {
+    margin-top: 35%;
+    font-size: 0.85vw;
+    color: blue;
+}
+
+body {
+    background-color: white;
+    background-image: url(images/bluestars.png);
+    background-repeat: repeat;
+    background-size: 75px 58.16px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geometry {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.redsphere {
+    width: 2.5%;
+    height: auto;
+    padding-top: 2.5%;
+    padding-left: 43.5%;
+}
+
+.redsphere:hover {
+    width: 4%;
+    height: auto;
+}
+
+.earth {
+    width: 18%;
+    height: auto;
+    padding-top: 6%;
+    padding-left: 58%;
+}
+
+.earth:hover {
+    width: 20%;
+}
+
+.ninestar {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.pinkstar {
+    width: 30%;
+    height: auto;
+    margin-top: -25%;
+    margin-left: 55%;
+}
+
+.star {
+    width: 8%;
+    height: auto;
+    margin-left: 38%;
+    margin-top: -8%;
+}
+
+.star:hover {
+    width: 10%;
+}
+
+.unicorn {
+    width: 25%;
+    height: auto;
+    margin-top: -12.5%;
+    margin-left: 45%;
+}
+
+.unicorn:hover {
+    width: 27%;
+}
+
+.blueplanet {
+    width: 12.5%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.blueplanet:hover {
+    width: 15%;
+}
+
+.frame {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.size {
+    font-size: 10vw;
+}
+
+.title {
+    width: 65%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: block;
+    position: relative;
+}
+
+.subtitle {
+    width: 85%;
+    height: auto;
+    margin-top: -5%;
+    margin-left: 2%;
+    display: block;
+    position: relative;
+}
+
+.subtitle:hover {
+    width: 95%;
+}
+
+.title:hover {
+    width: 75%;
+}
+
+.tags {
+    width: 10%;
+    font-family: helvetica;
+    font-size: 1vw;
+    color: blue;
+    margin: 0;
+    text-align: center;
+    align-content: flex-start;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.ambito1, .ambito2, .ambito3 {
+    display: flex;
+    position: relative;
+    transform: rotate(-90deg);
+    width: 100%;
+    height: auto;
+}
+
+.ambito1 {
+    margin-top: 105%;
+}
+
+.ambito2 {
+    margin-top: 300%;
+}
+
+.ambito3 {
+    margin-top: 225%;
+}
+
+.ambito1:hover, .ambito2:hover, .ambito3:hover {
+    font-style: bold;
+    font-size: 1.25vw;
+    
+}
+
+.keywords {
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
+    margin-left: -7%;
+    position: relative;
+}
+
+.keywords:hover {
+    width: 105%;
+}
+
+.container {
+    background-color: transparent;
+    width: 65vh;
+    height: 90vh;
+    border: 1.25px solid red;
+    margin-top: 2.5%;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+/*    z-index: 0;*/
+}
+
+
+/* SINOPSE/BUTTONS */
+
+.back_button {
+    width: 10%;
+    height: auto;
+    margin-left: 45%;
+}
+
+.sinopse, .sinopse2 {
+    font-family: Helvetica;
+    background: white;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: red;
+    font-size: 1.5vw;
+    overflow: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+/*    z-index: 3;*/
+}
+
+.text {
+    background-color: white;
+    width: 95vh;
+    height: 90vh;
+    border: 1.25px solid blue;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    flex-direction: column;
+    
+}
+
+.quote {
+    text-decoration: none;
+    color: red;
+    font-size: 1.20vw;
+    padding: 3%;
+}
+
+.quote2 {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.20vw;
+    margin-top: 2%;
+}
+
+.sinopse_close {
+    width: 15%;
+    height: auto;
+}
+
+.sinopse:target {
+	opacity: 1;
+	visibility: visible;
+    position: fixed;
+}
